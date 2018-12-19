@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import selenu_bard from "../images/selenu_bard.png";
+
+//Components
+import SceneText from "./sceneText.js";
 
 class Scene extends Component {
   constructor() {
@@ -15,14 +17,12 @@ class Scene extends Component {
     return (
       <div>
         <img
-          src={selenu_bard}
+          src={this.props.image}
           alt="Bard Baby"
           style={{ width: "20em", height: "25em" }}
           className="my-3"
         />
-        <div className="my-3">
-          <span> Welcome to the world of Selenu!</span>
-        </div>
+        <SceneText text={this.props.text} />
       </div>
     );
   }
