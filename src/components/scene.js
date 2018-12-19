@@ -16,13 +16,13 @@ class Scene extends Component {
   render() {
     return (
       <div>
+        <SceneText text={this.props.text} />
         <img
           src={this.props.image}
           alt="Bard Baby"
           style={{ width: "20em", height: "25em" }}
           className="my-3"
         />
-        <SceneText text={this.props.text} />
       </div>
     );
   }

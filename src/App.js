@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import selenu_bard from "./images/selenu_bard.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/jquery/dist/jquery.min.js";
 import "./App.css";
 
 //Components
@@ -22,13 +23,18 @@ class App extends Component {
     };
   }
 
+  playerSet = (query = "Ana") => {
+    this.setState({ player: query });
+  };
+
   render() {
     return (
-      <div className="App" style={{ background: "#000" }}>
+      <div className="App">
         <Navbar
           player={this.state.player}
           game={this.state.game}
           health={this.state.health}
+          handleInput={this.playerSet}
         />
         <div className="jumbotron jumbotron-fluid App-header">
           <div className="container">
