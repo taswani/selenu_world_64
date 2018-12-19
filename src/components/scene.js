@@ -20,7 +20,7 @@ class Scene extends Component {
         <img
           src={this.props.image}
           alt="Bard Baby"
-          style={{ width: "20em", height: "25em" }}
+          style={{ width: "17em", height: "25em" }}
           className="my-3"
         />
       </div>
