@@ -25,7 +25,7 @@ class Navbar extends Component {
     return (
       <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             {this.props.game}
           </a>
           <div className="navbar-collapse" id="navbarSupportedContent">

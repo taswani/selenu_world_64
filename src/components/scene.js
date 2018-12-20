@@ -23,6 +23,11 @@ class Scene extends Component {
           style={{ width: "17em", height: "25em" }}
           className="my-3"
         />
+        <div>
+          <a className="navbar-brand" href={"/" + this.props.page}>
+            Next >
+          </a>
+        </div>
       </div>
     );
   }
