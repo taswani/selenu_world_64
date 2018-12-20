@@ -24,8 +24,17 @@ class Scene extends Component {
           className="my-3"
         />
         <div>
-          <a className="navbar-brand" href={"/" + this.props.page}>
-            Next >
+          <a
+            className="btn btn-outline-danger mx-1"
+            href={"/" + this.props.pageBack}
+          >
+            Prev
+          </a>
+          <a
+            className="btn btn-outline-success mx-1"
+            href={"/" + this.props.page}
+          >
+            Next
           </a>
         </div>
       </div>

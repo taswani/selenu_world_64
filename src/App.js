@@ -84,6 +84,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[0]}
                       text={this.state.text[0]}
+                      pageBack={"start"}
                       page={1}
                     />
                   )}
@@ -94,6 +95,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[1]}
                       text={this.state.text[0]}
+                      pageBack={"start"}
                       page={2}
                     />
                   )}
@@ -104,6 +106,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[2]}
                       text={this.state.text[0]}
+                      pageBack={1}
                       page={3}
                     />
                   )}
@@ -114,6 +117,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[3]}
                       text={this.state.text[0]}
+                      pageBack={2}
                       page={4}
                     />
                   )}
@@ -124,6 +128,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[4]}
                       text={this.state.text[0]}
+                      pageBack={3}
                       page={5}
                     />
                   )}
@@ -134,6 +139,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[5]}
                       text={this.state.text[0]}
+                      pageBack={4}
                       page={6}
                     />
                   )}
@@ -144,6 +150,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[6]}
                       text={this.state.text[0]}
+                      pageBack={5}
                       page={7}
                     />
                   )}
@@ -154,6 +161,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[7]}
                       text={this.state.text[0]}
+                      pageBack={6}
                       page={8}
                     />
                   )}
@@ -164,6 +172,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[8]}
                       text={this.state.text[0]}
+                      pageBack={7}
                       page={9}
                     />
                   )}
@@ -174,6 +183,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[9]}
                       text={this.state.text[0]}
+                      pageBack={8}
                       page={10}
                     />
                   )}
@@ -184,6 +194,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[10]}
                       text={this.state.text[0]}
+                      pageBack={9}
                       page={11}
                     />
                   )}
@@ -194,6 +205,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[11]}
                       text={this.state.text[0]}
+                      pageBack={10}
                       page={12}
                     />
                   )}
@@ -204,6 +216,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[12]}
                       text={this.state.text[0]}
+                      pageBack={11}
                       page={13}
                     />
                   )}
@@ -214,6 +227,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[13]}
                       text={this.state.text[0]}
+                      pageBack={12}
                       page={14}
                     />
                   )}
@@ -224,6 +238,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[14]}
                       text={this.state.text[0]}
+                      pageBack={13}
                       page={15}
                     />
                   )}
@@ -234,6 +249,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[15]}
                       text={this.state.text[0]}
+                      pageBack={14}
                       page={16}
                     />
                   )}
@@ -244,6 +260,7 @@ class App extends Component {
                     <Scene
                       image={this.state.images[16]}
                       text={this.state.text[0]}
+                      pageBack={15}
                       page={"start"}
                     />
                   )}
