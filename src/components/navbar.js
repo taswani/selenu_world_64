@@ -46,7 +46,7 @@ class Navbar extends Component {
               <input
                 className="form-control"
                 type="search"
-                placeholder="Search"
+                placeholder="Your Name"
                 aria-label="Search"
                 onChange={this.handleChange}
               />
