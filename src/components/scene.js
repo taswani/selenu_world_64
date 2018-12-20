@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 //Components
 import SceneText from "./sceneText.js";
@@ -24,18 +25,18 @@ class Scene extends Component {
           className="my-3"
         />
         <div>
-          <a
+          <NavLink
+            to={"/" + this.props.pageBack}
             className="btn btn-outline-danger mx-1"
-            href={"/" + this.props.pageBack}
           >
             Prev
-          </a>
-          <a
+          </NavLink>
+          <NavLink
+            to={"/" + this.props.page}
             className="btn btn-outline-success mx-1"
-            href={"/" + this.props.page}
           >
             Next
-          </a>
+          </NavLink>
         </div>
       </div>
     );
